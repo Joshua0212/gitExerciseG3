@@ -67,9 +67,9 @@ int main() {
 * This function calculates the area of a circle.
 */
 void calAreaOfCircle() {
-   float radius area;
+   float radius, area;
    printf("\nEnter the radius of Circle : ");
-   scanf("%d", &radius);
+   scanf("%f", &radius);
  
    area = 3.14 * (radius * radius);
    printf("\nArea of Circle : %.2f", area);
@@ -116,12 +116,12 @@ void calAreaOfRectangle(){
 	   int length, breadth, area;
  
    printf("\nEnter the Length of Rectangle : ");
-   scanf("%", &length);
+   scanf("%d", &length);
  
    printf("\nEnter the Breadth of Rectangle : ");
    scanf("%d", &breadth);
  
    area = length * breadth;
-   printf("\nArea of Rectangle : %d", AREA);
+   printf("\nArea of Rectangle : %d", area);
       getch();
 }
